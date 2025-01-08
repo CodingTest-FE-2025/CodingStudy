@@ -72,10 +72,37 @@
 
 ---
 
-## ✅ 브랜치 규칙  
+## ✅ 프로젝트 클론 받을때
 
-- 본인 이름으로 브랜치를 생성하여 문제를 풀이한 후 PR을 요청해주세요.  
+__step 1__ 
+```
+git clone https://github.com/CodingTest-FE-2025/CodingStudy.git
+```
+__step 2__ 
+```
+git checkout -t origin/<본인브랜치명>
+```
+
+## ✅ 프로젝트 PR 날릴때
+
+__step 1__ 
+
+본인 브랜치 확인 -> 본인 폴더에서 작업
+
+__step 2__ 
+```
+git add .
+git commit -m "커밋 규칙에 따라 작성"
+git push origin/<본인 브랜치명>
+```
+__step 3__ 
+
+github에 가서 create PullRequest 로 PR 생성
+
+위의 PR 탬플릿에 맞게 작성
+
+main 브랜치로 merge 요청 날리기
 
 ---
 
-함께 성장하며 즐겁게 코딩하세요! 🚀  
+함께 성장하며 즐겁게 코딩합시다! 🚀  
