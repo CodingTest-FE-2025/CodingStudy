@@ -27,4 +27,4 @@ function solution(brown, yellow) {
   return answer.flat();
 }
 
-console.log(solution(10, 2));
+console.log(solution(13, 3));
