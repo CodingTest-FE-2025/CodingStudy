@@ -46,7 +46,7 @@ function solution(genres, plays) {
       Map2.get(genres[i]).push([plays[i], i]);
     }
   }
-  Map2 = new Map([...Map2].map(([g, v]) => [g, v.sort((a, b) => b[0] - a[0])]));
+  // Map2 = new Map([...Map2].map(([g, v]) => [g, v.sort((a, b) => b[0] - a[0])]));
 
   // 8번 ~ 9번
 
@@ -60,7 +60,7 @@ function solution(genres, plays) {
     }
   });
 
-  return answer;
+  return [...Map2];
 }
 
 console.log(
