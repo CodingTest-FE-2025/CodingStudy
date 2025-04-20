@@ -11,7 +11,7 @@ function solution(n) {
   const array = [];
   let answer = 0;
 
-  while (Math.floor(n / 3) > 0) {
+  while (n > 0) {
     array.push(n % 3);
     n = Math.floor(n / 3);
   }
