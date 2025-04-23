@@ -1,4 +1,6 @@
 function solution(s) {
+  let result = "";
+  let buffer = "";
   const wordList = [
     "zero",
     "one",
@@ -14,13 +16,19 @@ function solution(s) {
 
   for (let i = 0; i < s.length; i++) {
     if (isNaN(Number(s[i]))) {
-      const word = s[i] + s[i + 1];
-      const index = wordList.findIndex((str) => str.includes(word));
-      s = s.replace(wordList[index], index);
+      buffer += s[i];
+      const index = wordList.findIndex((str) => str === buffer);
+      console.log(index);
+      if (index !== -1) {
+        result += index;
+        buffer = "";
+      }
+    } else {
+      result += s[i];
     }
   }
 
-  return Number(s);
+  return Number(result);
 }
 
 console.log(solution("one4seveneight")); //1478
