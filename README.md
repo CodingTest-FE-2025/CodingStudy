@@ -27,7 +27,7 @@ GitHub에 PR을 올려 풀이를 공유하며 각자의 접근 방식을 회의�
 
 | 박나겸 | 김은경 | 김승석 | 이석찬 | 유주섭 |
 |--------------|--------|--------|--------|--------|
-| <img src="https://github.com/nagyum.png" width="100" /> | <img src="https://github.com/kimsoyoung96.png" width="100" /> | <img src="https://github.com/llllliii88iiilllll.png" width="100" /> | <img src="https://github.com/qpalkim.png" width="100" /> | <img src="https://github.com/charie95.png" width="100" /> |
+| <img src="https://github.com/nagyum.png" width="100" /> | <img src="https://github.com/eunkyung01.png" width="100" /> | <img src="https://github.com/kss761036.png" width="100" /> | <img src="https://github.com/SeokChan-Lee.png" width="100" /> | <img src="https://github.com/yujuseop.png" width="100" /> |
 | [GitHub](https://github.com/nagyum) | [GitHub](https://github.com/eunkyung01) | [GitHub](https://github.com/kss761036) | [GitHub](https://github.com/SeokChan-Lee) | [GitHub](https://github.com/yujuseop) |
 
 
