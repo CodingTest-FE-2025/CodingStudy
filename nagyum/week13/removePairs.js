@@ -17,13 +17,10 @@ function solution(s) {
     nine: "9",
   };
 
-  // 모든 영단어에 대해 반복
   for (let word in numbers) {
-    // 정규식을 사용해 모든 영단어를 해당 숫자로 변환
     let regExp = new RegExp(word, "g");
     answer = answer.replace(regExp, numbers[word]);
   }
 
-  // 최종 결과를 숫자로 변환
   return parseInt(answer);
 }
