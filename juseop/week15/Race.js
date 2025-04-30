@@ -28,7 +28,6 @@
  */
 
 function solution(players, callings) {
-  let answer = [];
   let indexMap = new Map(players.map((name, idx) => [name, idx])); // 선수 이름과 인덱스를 저장
   for (let i = 0; i < callings.length; i++) {
     let name = callings[i]; // 부른 선수 이름
@@ -42,5 +41,5 @@ function solution(players, callings) {
       indexMap.set(prevName, idx); // 이전 선수의 인덱스를 업데이트
     }
   }
-  return (answer = players); // 최종 선수 순서를 리턴
+  return players; // 최종 선수 순서를 리턴
 }
