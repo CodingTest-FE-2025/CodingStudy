@@ -54,16 +54,10 @@ function solution(park, routes) {
     let [ny, nx] = [...start];
     let valid = true;
     for (let step = 1; step <= n; step++) {
-      let nextY = ny + dy * step;
-      let nextX = nx + dx * step;
+      let ty = ny + dy * step;
+      let tx = nx + dx * step;
       // 공원 범위를 벗어나거나 장애물 만나면 중단
-      if (
-        nextY < 0 ||
-        nextY >= h ||
-        nextX < 0 ||
-        nextX >= w ||
-        park[nextY][nextX] === "X"
-      ) {
+      if (ty < 0 || ty >= h || tx < 0 || tx >= w || park[ty][tx] === "X") {
         valid = false;
         break;
       }
