@@ -11,7 +11,7 @@ function solution(n, arr1, arr2) {
     //이진법으로 바꾸고 연결된 문자열이니까 비교할려면 split
     const binary1 = arr1[i].toString(2).padStart(n, "0");
     const binary2 = arr2[i].toString(2).padStart(n, "0");
-    //앞이 0 이면 제대로 비교 못하니까 길이맞게 0 추가
+    // 앞이 0 이면 제대로 비교 못하니까 길이맞게 0 추가
     // 꼭 하나씩 안해도 문자끼리 비교되네
     // if (binary1.length < n) {
     //   while (binary1.length < n) binary1.unshift("0");
